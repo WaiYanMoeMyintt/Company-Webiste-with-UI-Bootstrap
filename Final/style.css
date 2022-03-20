@@ -44,6 +44,6 @@ section{
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-.navbar .nav-link.active{
+.navbar-light .navbar-nav .nav-link.active{
    color: #E93B81;
 }
