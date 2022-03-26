@@ -53,10 +53,9 @@ section{
    text-transform: uppercase;
    letter-spacing: .5px;
 }
-section{
+.home{
    min-height: 100vh;
    background-position: center;
-   background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
    background:linear-gradient(rgba(17,36,90,0.8),rgba(17,36,90,0.8)),url("../Assets/hero_img.jpg");
@@ -93,4 +92,31 @@ section{
 .row div a:active{
    border: none;
    outline: none;
+}
+.services-intro{
+   text-align: center;
+   margin-bottom: 60px;
+}
+.services-title{
+   width: 130px;
+   height: 2px;
+   background-color: red;
+   margin: 15px auto 0 auto;
+}
+.services-sub-title{
+   font-size: 1.2rem;
+   letter-spacing: 1px;
+}
+.services-icon{
+   width: 80px;
+   height: 60px;
+   background-color: #E93B81;
+   color: #fff;
+   border-radius: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   cursor: pointer;
+   margin: 0 30px;
 }
