@@ -157,3 +157,57 @@ section{
    border-radius: 100px;
    font-size: 1.5rem;
 }
+.team-members{
+   background-color: #11245A;
+}
+.team-members .services-title{
+   width: 70px;
+   height: 2px;
+   margin: 16px auto;
+   background-color: rgba(255, 255, 255, 0.788);
+}
+.team-members .team-img img, .team-members .team-img .social-icons{
+   transition: all 0.5s ease;
+}
+.team-members .team-img .team-icon{
+   width: 100%;
+   height: 60px;
+   background-color: #E93B81;
+   position: absolute;
+   bottom: -60px;
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.team-members .team-img .team-icon a{
+   width:40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid rgb(240, 240, 240);
+   font-size: 24px;
+   color: #fff;
+   gap: 10px;
+   border-radius: 100px;
+   margin-left: 5px;
+}
+.team-members .team-img .team-icon a:hover{
+   background-color: #E93B81;
+   color: #fff;
+
+}
+.team-members:hover  .team-img .team-icon{
+   bottom: 0;
+}
+.team-members:hover img{
+   transform: translateY(-60px);
+}
+.team-members .team-img .team-icon a i{
+   font-size: 25px;
+}
+.team-members .team-img{
+   overflow: hidden;
+   position: relative;
+}
